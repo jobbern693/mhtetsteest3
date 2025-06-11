@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# Завантаження файлу mhddos.ini
-curl -o mhddos.ini https://github.com/jobbern693/mhtetsteest3/blob/main/mhddos.ini && \
+# Завантаження файлу mhddos.ini з GitHub
+curl -o mhddos.ini https://raw.githubusercontent.com/jobbern693/mhtetsteest3/main/mhddos.ini && \
 
 # Встановлення NetData без підтвердження
 curl https://get.netdata.cloud/kickstart.sh > /tmp/netdata-kickstart.sh && \
